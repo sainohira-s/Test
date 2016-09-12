@@ -1,0 +1,12 @@
+machine:
+  xcode:
+    version: 7.3
+
+dependecies:
+  override:
+    - pod install:
+      timeout: 300
+
+test:
+  override:
+    - xcodebuild test -schme Retty -workspace Retty.xcworkspace -destination 'name-iPhone 6'
