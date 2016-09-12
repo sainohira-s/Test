@@ -50,10 +50,10 @@ class FireBaseFunctionsListTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        switch indexPath.row {
-        case 0:
-            navigationController?.pushViewController(ChatViewController(), animated: true)
-        default: break
-        }
+//        switch indexPath.row {
+//        case 0:
+//            navigationController?.pushViewController(ChatViewController(), animated: true)
+//        default: break
+//        }
     }
 }

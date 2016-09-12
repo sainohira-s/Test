@@ -11,8 +11,6 @@
 		9A724652B3CBA184EF1F1EA2 /* libPods-TestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A2E01D0AB0D446AE494358 /* libPods-TestAppTests.a */; };
 		A92D5A081D3765B900C2902C /* FireBaseFunctionsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D5A061D3765B900C2902C /* FireBaseFunctionsListTableViewController.swift */; };
 		A92D5A091D3765B900C2902C /* FireBaseFunctionsListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92D5A071D3765B900C2902C /* FireBaseFunctionsListTableViewController.xib */; };
-		A92D5A0E1D376E8200C2902C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D5A0C1D376E8200C2902C /* ChatViewController.swift */; };
-		A92D5A0F1D376E8200C2902C /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92D5A0D1D376E8200C2902C /* ChatViewController.xib */; };
 		A9C48BAF1D34D66800B22DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C48BAE1D34D66800B22DBF /* AppDelegate.swift */; };
 		A9C48BB11D34D66800B22DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C48BB01D34D66800B22DBF /* ViewController.swift */; };
 		A9C48BB41D34D66800B22DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C48BB21D34D66800B22DBF /* Main.storyboard */; };
@@ -55,8 +53,6 @@
 		7C18BFD895F6151AFBCF6A9C /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
 		A92D5A061D3765B900C2902C /* FireBaseFunctionsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FireBaseFunctionsListTableViewController.swift; path = Firebase/FireBaseFunctionsListTableViewController.swift; sourceTree = "<group>"; };
 		A92D5A071D3765B900C2902C /* FireBaseFunctionsListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FireBaseFunctionsListTableViewController.xib; path = Firebase/FireBaseFunctionsListTableViewController.xib; sourceTree = "<group>"; };
-		A92D5A0C1D376E8200C2902C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = Firebase/ChatViewController.swift; sourceTree = "<group>"; };
-		A92D5A0D1D376E8200C2902C /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatViewController.xib; path = Firebase/ChatViewController.xib; sourceTree = "<group>"; };
 		A9C48BAB1D34D66700B22DBF /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C48BAE1D34D66800B22DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9C48BB01D34D66800B22DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -284,8 +280,6 @@
 			children = (
 				A92D5A061D3765B900C2902C /* FireBaseFunctionsListTableViewController.swift */,
 				A92D5A071D3765B900C2902C /* FireBaseFunctionsListTableViewController.xib */,
-				A92D5A0C1D376E8200C2902C /* ChatViewController.swift */,
-				A92D5A0D1D376E8200C2902C /* ChatViewController.xib */,
 			);
 			name = Firebase;
 			sourceTree = "<group>";
@@ -1126,7 +1120,6 @@
 			files = (
 				A9C48BB91D34D66800B22DBF /* LaunchScreen.storyboard in Resources */,
 				A9C48CC51D36101000B22DBF /* GoogleService-Info.plist in Resources */,
-				A92D5A0F1D376E8200C2902C /* ChatViewController.xib in Resources */,
 				A92D5A091D3765B900C2902C /* FireBaseFunctionsListTableViewController.xib in Resources */,
 				A9C48BB61D34D66800B22DBF /* Assets.xcassets in Resources */,
 				A9C48BB41D34D66800B22DBF /* Main.storyboard in Resources */,
@@ -1242,7 +1235,6 @@
 			files = (
 				A9C48BB11D34D66800B22DBF /* ViewController.swift in Sources */,
 				A92D5A081D3765B900C2902C /* FireBaseFunctionsListTableViewController.swift in Sources */,
-				A92D5A0E1D376E8200C2902C /* ChatViewController.swift in Sources */,
 				A9C48BAF1D34D66800B22DBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
