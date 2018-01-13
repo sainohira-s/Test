@@ -162,9 +162,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="img\1.jpg" />
-    <Content Include="img\aa1.png" />
-    <Content Include="img\sample-1.jpg" />
+    <Content Include="img\IMG_0038.JPG" />
+    <Content Include="img\IMG_0232.JPG" />
+    <Content Include="img\IMG_0293.JPG" />
+    <Content Include="img\IMG_9423.JPG" />
+    <Content Include="img\IMG_9620.JPG" />
+    <Content Include="img\menu_icon.png" />
+    <Content Include="img\italy_icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -214,6 +218,8 @@
     <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.woff" />
     <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.ttf" />
     <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.eot" />
+    <None Include="Properties\PublishProfiles\SampleApplication20180112013108 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\SampleApplication20180113050002 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
